@@ -1,4 +1,5 @@
-This is the project report of Kinker paper. 
+This is the project report of Kinker paper.
+
 Memo:
 Single-cell data is being used widely. Single cell technologies refer to technologies that take into account the heterogeneity of a tissue.
 scRNA-seq technology basically means RNA-sequencing technology for single cells (RNA-seq technology is the technology used to get transcriptome data, i.e data about the RNA sequence)
