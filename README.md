@@ -94,18 +94,18 @@ HER2
 ----
 Human epidermal growth factor receptor 2 or HER2 is a member of human epidermal growth factor receptor family. It is coded by the ERBB2 gene located at chromosome 17. 
 
-1. ERBB: It consists of ERBB-1, ERBB-2, ERBB-3, ERBB-4. Each protein has three parts: extracellular ligand binding domain, a transmembrane domain, and an intracellular domain.
-
+1. ERBB: It consists of ERBB-1, ERBB-2, ERBB-3, ERBB-4. Each protein has three parts: extracellular ligand binding domain, a transmembrane domain, and an intracellular domain. HER2 (ErbB-2), does not have any specific ligand and dimerizes with other ErbB proteins.
+2. Dimerization is the process when two ErbB proteins pair up. HER2 is the preferred protein in this process because it has no specific ligand, and has an affinity for dimerization with the other 3 ErbB proteins. On this pairing up, autophosphorylation is triggered in the intracellular domain where tyrosine residues get phosphorylated and signals are sent inside the cell.
+3. In summary, signaling through the ErbB family of receptors promotes cell proliferation and opposes apoptosis, and therefore must be tightly regulated to prevent uncontrolled cell growth from occurring.
+4. Among all the types of breast cancers, HER2-positive breast cancers are associated with increased disease recurrence and a poor prognosis.
 
 Bevacizumab
 ------------
+It is also a FDA-approved drug which is a monoclonal antibody. It is used in various cancers like colorectal, lung, breast, kidney, brain, etc. It is also commonly called Avastin. Bevacizumab belongs to a class of medications called antiangiogenic agents, those that prevent angiogenesis. Bevacizumab works by stopping the formation of blood vessels that bring oxygen and nutrients to tumors. This may slow the growth and spread of tumors. It works by blocking VEGF-A (Vascular endothelial growth factor). 
 
 VEGF
 -----
-
-
-
-
+VEGF or Vascular Endothelial Growth Factor belongs to the family of growth factors and is a signaling protein. VEGF's normal function is to create new blood vessels during embryonic development, new blood vessels after injury, muscle following exercise, and new vessels (collateral circulation) to bypass blocked vessels. 
 
 KSQ in simpler terms
 ---------------------
