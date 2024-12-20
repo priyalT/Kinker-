@@ -8,6 +8,7 @@ Table of Contents
 ===========
 1. [The Key Scientific Question](https://github.com/priyalT/Kinker-/edit/main/README.md#the-key-scientific-question)
 2. [Week 1 Memo](https://github.com/priyalT/Kinker-/edit/main/README.md#the-key-scientific-question)
+3. [Week 2 Memo](https://github.com/priyalT/Kinker-/edit/main/README.md#week-2)
 
 
 The Key Scientific Question
@@ -105,10 +106,30 @@ It is also a FDA-approved drug which is a monoclonal antibody. It is used in var
 
 VEGF
 -----
-VEGF or Vascular Endothelial Growth Factor belongs to the family of growth factors and is a signaling protein. VEGF's normal function is to create new blood vessels during embryonic development, new blood vessels after injury, muscle following exercise, and new vessels (collateral circulation) to bypass blocked vessels. 
+VEGF or Vascular Endothelial Growth Factor belongs to the family of growth factors and is a signaling protein. VEGF's normal function is to create new blood vessels during embryonic development, new blood vessels after injury, muscle following exercise, and new vessels (collateral circulation) to bypass blocked vessels. VEGF expression is typically initiated by hypoxia. Hypoxia is a condition in which the body or a region of the body is deprived of adequate oxygen supply at the tissue level. VEGF binds to VEGF receptor present on the endothelial cells. This signals angiogenesis or vasculogenesis 
 
 KSQ in simpler terms
 ---------------------
 The KSQ or the Key Scientific Question talks about how we can use scRNA seq data of cancer cell lines to explore how the following FDA drugs can also be used for other cancers:
 1. Trastuzumab targets HER2 and is used in the treatment of HER2-positive breast and gastric cancers. HER2 is an epidermal receptor protein which is overexpressed in cancerous states of the body, and remains underexpressed in normal states.
 2. Bevacizumab targets VEGF which is a signaling protein, helps in the formation of new blood vessels and in vasodilation as well. If VEGF is overexpressed, it can lead to metstatic cancers. Solid cancers by themselves cannot metstasize, but if cancerous cells gain the ability to produce VEGF, they can easily form new blood vessels and be transported through blood and metastatize. Bevacizumab is used for a variety of cancers, including colorectal, lung, glioblastoma, breast, liver, and kidney cancer.
+
+
+Week 2
+=======
+This week's task is to read through the paper and gain atleast 50-75% of understanding about what the paper is talking about. To ensure this understanding, here are a few questions that I have answered:
+
+
+1. How did the authors handle the potential caveat of co-culturing cell lines before profiling by scRNA-seq? Why do you think that caveat was or was not adequately addressed?
+
+2. The authors identified discrete subpopulations of cells within a subset of individual cell lines (Fig. 2A-B). What might be the reason why some cell lines have these discrete subpopulations while others do not?
+
+
+3. What are Recurrent Heterogeneous Programs (RHPs) and how were they defined?
+
+
+4. How do the identified RHPs relate to in vivo programs of heterogeneity in tumors, and what evidence supports this relationship?
+
+
+5. Where can you download the scRNA-seq data as shown in Figure 1B?
+
