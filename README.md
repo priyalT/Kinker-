@@ -117,7 +117,11 @@ The KSQ or the Key Scientific Question talks about how we can use scRNA seq data
 
 Week 2
 =======
-This week's task is to read through the paper and gain atleast 50-75% of understanding about what the paper is talking about. To ensure this understanding, here are a few questions that I have answered:
+This week's task is to read through the paper and gain atleast 50-75% of understanding about what the paper is talking about. Also, we could go through the references section to gain a more in-depth understanding of the paper.
+
+
+
+To ensure this understanding, here are a few questions posed by Dean Lee:
 
 
 1. How did the authors handle the potential caveat of co-culturing cell lines before profiling by scRNA-seq? Why do you think that caveat was or was not adequately addressed?
