@@ -126,6 +126,9 @@ To ensure this understanding, here are a few questions posed by Dean Lee:
 
 1. How did the authors handle the potential caveat of co-culturing cell lines before profiling by scRNA-seq? Why do you think that caveat was or was not adequately addressed?
 
+* The potential caveat that arises due to co-culturing of cell lines before profiling by scRNA-seq is that the gene expression might be affected due to the pooling. Gene expression of one cell line could mask the other's or vice versa. This caveat was adequately addressed as the researchers performed a control experiment in which six cell lines were profiled with and without co-culturing for 3 days. Although some effect was observed in gene expression due to co-culturing, heterogeneity patterns remained highly consistent between the two conditions.
+
+
 2. The authors identified discrete subpopulations of cells within a subset of individual cell lines (Fig. 2A-B). What might be the reason why some cell lines have these discrete subpopulations while others do not?
 
 
