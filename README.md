@@ -126,17 +126,36 @@ To ensure this understanding, here are a few questions posed by Dean Lee:
 
 1. How did the authors handle the potential caveat of co-culturing cell lines before profiling by scRNA-seq? Why do you think that caveat was or was not adequately addressed?
 
-* The potential caveat that arises due to co-culturing of cell lines before profiling by scRNA-seq is that the gene expression might be affected due to the pooling. Gene expression of one cell line could mask the other's or vice versa. This caveat was adequately addressed as the researchers performed a control experiment in which six cell lines were profiled with and without co-culturing for 3 days. Although some effect was observed in gene expression due to co-culturing, heterogeneity patterns remained highly consistent between the two conditions.
+
+  * The potential caveat that arises due to co-culturing of cell lines before profiling by scRNA-seq is that the gene expression might be affected due to the pooling. Gene expression of one cell line could mask the other's or vice versa. This caveat was adequately addressed as the researchers performed a control experiment in which six cell lines were profiled with and without co-culturing for 3 days. Although some effect was observed in gene expression due to co-culturing, heterogeneity patterns remained highly consistent between the two conditions.
 
 
 2. The authors identified discrete subpopulations of cells within a subset of individual cell lines (Fig. 2A-B). What might be the reason why some cell lines have these discrete subpopulations while others do not?
+
+   
+  * Genetic Diversity: Some cell lines may have genetic differences or subclonal variations that create distinct subpopulations.
+  * Epigenetic Plasticity: Certain cell lines may have more plasticity, allowing them to adopt distinct cellular states.
+  * Cell Line Adaptation: Cell lines derived from highly heterogeneous tumors may retain more of this heterogeneity, while others may have become more uniform over time in culture.
+  * External Factors: Growth conditions, prior treatments, or mutations could influence the development of discrete subpopulations.
 
 
 3. What are Recurrent Heterogeneous Programs (RHPs) and how were they defined?
 
 
+* RHPs are patterns of gene expression variability that occur consistently across multiple cancer cell lines. They represent biological processes shared between cells within a line or across lines. Using non-negative matrix factorization (NMF), the authors identified gene expression programs that varied within each cell line. They excluded programs linked to technical issues or low-quality data. RHPs were defined as programs observed in multiple cell lines (at least 8 lines) and across different experimental pools.
+
+
+
 4. How do the identified RHPs relate to in vivo programs of heterogeneity in tumors, and what evidence supports this relationship?
+
+
+* Many RHPs identified in cell lines matched heterogeneity programs observed in real tumors (in vivo), such as cell cycle, stress responses, EMT, and senescence programs.
+* Gene Overlap: Significant overlap was found between the genes in cell line RHPs and those in tumor heterogeneity programs (e.g., EMT-related genes in melanoma and HNSCC tumors).
+* Correlation: High correlation of cell scores (activity levels of programs) between cell lines and tumor samples.
+* Shared Behavior: Combined analyses of cell lines and tumors showed consistent patterns, such as EMT programs in melanoma and HNSCC, and senescence programs linked to hypoxia.
 
 
 5. Where can you download the scRNA-seq data as shown in Figure 1B?
 
+
+* The raw and processed scRNA-seq data used in this study are available through the Broad Institute’s Single Cell Portal (SCP542).
